@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+:root {
+  --almost-black: #151515;
+  --gold-button: #d5966c;
+  --white: #ffffff;
+  --Dark-grey: #444444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: auto 0;
+  /*border: 1px solid grey;*/
+}
+
+body {
+  font-family: sans-serif, "Outfit", "Big Shoulders Didplay";
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*styles for upper part of the page*/
+.containerFirst {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.blackBox {
+  width: 450px;
+  height: 799px;
+  background-color: var(--almost-black);
+}
+
+.wholeUpper {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 246px;
+  top: 190px;
+  left: 165px;
+}
+.wholeUpper h1 {
+  font-family: Big Shoulders Display;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--white);
+  height: 176px;
+  width: 514px;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.inscription {
+  width: 350px;
+  height: 160px;
+}
+
+.inscription p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: var(--Dark-grey);
+  text-align: left;
+}
+
+.loca {
+  display: flex;
+  flex-direction: row;
+}
+
+.loc {
+  width: 204px;
+  height: 72px;
+  background-color: var(--almost-black);
+  border: none;
+  color: #ffffff;
+  font-family: Big Shoulders Display;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.6363637447357178px;
+  text-align: left;
+  text-align: center;
+}
+
+.loc:hover {
+  cursor: pointer;
+}
+
+.littleBtn {
+  width: 56px;
+  height: 72px;
+  border: none;
+  background-color: var(--gold-button);
+}
+
+.littleBtn:hover {
+  cursor: pointer;
+}
+
+/*there is style for middle part of the page*/
+
+.containerSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayAtGallery {
+  width: 445px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.dayAtGallery h1 {
+  height: 120px;
+  width: 350px;
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--almost-black);
+}
+
+.dayAtGallery p {
+  height: 128px;
+  width: 350px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--Dark-grey);
+}
+
+.inspiration {
+  width: 445px;
+  height: 377px;
+  background-color: var(--almost-black);
+  position: relative;
+}
+
+.inspiration h1 {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--white);
+  height: 120px;
+  width: 350px;
+  position: absolute;
+  top: 65px;
+  left: 48px;
+}
+
+.inspiration p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--white);
+  height: 96px;
+  width: 350px;
+  position: absolute;
+  top: 217px;
+  left: 48px;
+}
+
+.firstLine {
+  display: flex;
+  flex-direction: row;
+  margin-top: 180px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.secondLine {
+  display: flex;
+  flex-direction: row;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 244px;
+  background-color: var(--almost-black);
+  bottom: 0;
+  left: 0;
+  margin-top: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.leftText {
+  font-family: sans-serif, "Big Shoulders Display";
+  font-weight: 900;
+  height: 58px;
+  width: 159.57235717773438px;
+  font-size: 22px;
+  color: var(--white);
+  position: absolute;
+  top: 80px;
+  left: 165px;
+}
+
+.middleText {
+  width: 430px;
+  height: 84px;
+  color: var(--white);
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: absolute;
+  top: 80px;
+  left: 465px;
+}
+
+.snIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+}
+
+.tabletP {
+  display: none;
+}
+
+.mobileP {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  .desktopP {
+    display: none;
+  }
+  .blackBox {
+    display: none;
+  }
+  .tabletP {
+    display: block;
+  }
+
+  .wholeUpper {
+    flex-direction: column;
+    gap: 48px;
+    top: 145px;
+    left: 389px;
+  }
+
+  .wholeUpper h1 {
+    font-family: Big Shoulders Display;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--almost-black);
+  }
+
+  .inscription p {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .leftContainer {
+    gap: 48px;
+  }
+
+  .inspiration {
+    width: 280px;
+    height: 396px;
+    gap: 24px;
+  }
+
+  .inspiration p {
+    font-size: 18px;
+    height: 112px;
+    width: 223px;
+    left: 29px;
+  }
+
+  .inspiration h1 {
+    font-size: 50px;
+    height: 112px;
+    width: 223px;
+    left: 29px;
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 11px;
+  }
+  
+
+  footer {
+    height: 216px;
+  }
+  .leftText {
+    position: absolute;
+    top: 56px;
+    left: 39px;
+  }
+  .leftText h1 {
+    font-size: 20px;
+  }
+
+  .middleText {
+    position: absolute;
+    top: 56px;
+    left: 214px;
+  }
+
+  .middleText p {
+    font-size: 16px;
+  }
+
+  .snIcons {
+    position: absolute;
+    top: 56px;
+    left: 660px;
+  }
+
+ 
+ .firstLine{
+  padding: 68px;
+ }
+  
+
+  .dayAtGallery {
+    width: 445px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  
+  }
+
+  .dayAtGallery h1 {
+    height: 135px;
+    width: 223px;
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--almost-black);
+  }
+
+  .dayAtGallery p {
+    height: 140px;
+    width: 223px;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: var(--Dark-grey);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .desktopP {
+    display: none;
+  }
+  .tabletP {
+    display: none;
+  }
+  .mobileP {
+    display: block;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .blackBox {
+    display: none;
+  }
+
+  .containerFirst {
+    flex-direction: column;
+    position: relative;
+  }
+  .wholeUpper {
+    flex-direction: column;
+    position: absolute;
+    left: 16px;
+    top: 365px;
+    gap: 32px;
+  }
+
+  .wholeUpper h1 {
+    color: var(--almost-black);
+    font-size: 60px;
+  }
+
+  .firstLine {
+    flex-direction: column-reverse;
+    margin-top: 750px;
+  }
+
+  .secondLine {
+    flex-direction: column;
+  }
+
+  .dayAtGallery{
+    gap:21px;
+  }
+
+  .dayAtGallery h1{
+    height: 90px;
+width: 343px;
+
+  }
+
+  .dayAtGallery p{
+    height: 112px;
+width: 343px;
+
+
+  }
+
+  .inspiration{
+    height: 293px;
+width: 343px;
+gap: 24px;
+  }
+
+  .inspiration p{
+    height: 84px;
+    width: 295px;
+ top:162px;
+ left:24px;
+    
+  }
+
+  .inspiration h1{
+    height: 90px;
+width: 295px;
+top:48px;
+left:24px;
+
+  }
+
+  footer {
+    height: 336px;
+  }
+
+  .leftText {
+    position: absolute;
+    top: 48px;
+    left: 32px;
+  }
+  .leftText h1 {
+    font-size: 20px;
+  }
+
+  .middleText {
+    position: absolute;
+    top: 126px;
+    left: 32px;
+  }
+
+  .middleText p {
+    font-size: 16px;
+  }
+
+  .snIcons {
+    position: absolute;
+    top: 210px;
+    left: 32px;
+  }
+}
