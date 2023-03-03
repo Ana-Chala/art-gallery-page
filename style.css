@@ -54,7 +54,9 @@ img {
   line-height: 88px;
   letter-spacing: 0px;
   text-align: left;
-  color: var(--white);
+  background: linear-gradient(90deg, #ffffff 55%, #151515 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   height: 176px;
   width: 514px;
 }
@@ -113,6 +115,8 @@ img {
 .littleBtn:hover {
   cursor: pointer;
 }
+
+
 
 /*there is style for middle part of the page*/
 
@@ -297,7 +301,9 @@ footer {
     line-height: 65px;
     letter-spacing: 0px;
     text-align: left;
-    color: var(--almost-black);
+    background: #151515;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .inscription p {
@@ -440,7 +446,9 @@ footer {
   }
 
   .wholeUpper h1 {
-    color: var(--almost-black);
+    background: #151515;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 60px;
   }
 
